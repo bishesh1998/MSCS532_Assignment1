@@ -5,6 +5,10 @@ MSCS 532
 """
 
 def insertion_sort_desc(arr):
+    
+    """
+    This function sorts an array in monotonically decreasing order using the Insertion Sort algorithm.
+    """
     for i in range(1, len(arr)):
         key = arr[i]
         j = i - 1
@@ -22,3 +26,4 @@ if __name__ == "__main__":
     print("Original array:", data)
     sorted_data = insertion_sort_desc(data)
     print("Sorted array (decreasing):", sorted_data)
+
